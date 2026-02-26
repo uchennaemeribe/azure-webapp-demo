@@ -54,9 +54,9 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'WebApp-Git'
-          slot-name: 'Production'
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: .
 
           
+
 
